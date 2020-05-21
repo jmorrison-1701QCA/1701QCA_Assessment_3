@@ -122,34 +122,58 @@ The motivation for this concept was the idea of creating a fun and intersting wa
 <!--- In this section, include text and images (and potentially links to video) that represent the development of your project including sources you've found (URLs and written references), choices you've made, sketches you've done, iterations completed, materials you've investigated, and code samples. Use the markdown reference for help in formatting the material.
 
 ### Technical Development ###
-'The technical developemnt for this project has only just recently begun due to wait on essential components.
 
-![Image](Connections.jpg)
-This is how the MQ-3 Alcohol sensor is going to be connected without using a breadboad, as it has been through the testing phases.
+The technical development for this project began with connecting the mico:Bit to the MQ-3 sensor. This was done using the analogue read pin and setting it to Pin 0. The wiring for component was straitfoward. An external battery was required to run the MQ-3 sensor due to that the Micro:Bit battery was operating the Ring Lights. 
 
 ![Image](MQ-3_1.jpg)
-
 ![Image](MQ-3_2.jpg)
-
 ![Image](MQ-3_3.jpg)
 
-This is how the Alcohol sensor has been connected through the developmnt stages, this is allowing me to fix an errors that occur, so that the entirity of the project has to be restarted.
+From there the MQ_3 Sensor was connected with the Ring Light. This was done by sending the reasing from the MQ-3 through the micro:Bit where the code would then turn the number into a colour that would then input input it to the Ring Light. These was completed using Pins 1 and 0. wiring for this process was similar to the first but instead of having an external battery the Ring was connected with the micro:Bit.
 
-![Image](Code.jpg)
+A main component of the technical development was that rings had to be created so that the wiring could be attached to the micro:Bit without a breadboard. This was done through the process of soldering. A ring was created out of 1mm alloy and wrapped around a small screw that matched the diameter of the hole in the micro:Bit. This ring end was then soldered together and later attached to the appropiate wire so that it could be connected to the micro:Bit.
 
-The basic code that is required to operate the Alcohol sensor so that when exposed the amount on the microbit increases. This is completed by using the anologue read pin.
+![Image](3.jpg)
+![Image](5.jpg)
+![Image](4.jpg)
 
 ### Fabrication ###
 
-The fabrication for this project has been in development since its conception. It hasn't been altered much from the original design, only twice. Once for the practical manner for protecting the electronics and the other for the aesthtic purposes
-
-![Image](Diagram_1.jpg)
-
-![Image](Prot_2.jpg)
+When starting this project I was unsure in what to contain the game in that would make it functional as well as portable. It was decided that box would be used to contain the game as it would stop liquids from getting into the circuits. A prototype was made for the project to determine whether it would be a good match to the project.
 
 ![Image](Prot_1.jpg)
+![Image](Prot_2.jpg)
 
-This prototype is built to a scale of 1:4.
+The prototype was made to 1:4 scale. 
+
+I took inspiration for the basic design of the box from a timber dartboard. 
+![Image](.jpg)
+
+7cm Plywood timber was used in the making of the box. This was chosen due to the sturdyness of the ply as well as the asthetics of the grain in the ply. 
+
+![Image](1.jpg)
+
+The ply was then stained with a hazelnut stain, this was all for asthestic purposes.
+
+![Image](2.jpg)
+
+Next in the process of assembling the box was the process of measuring a gluing all the pieces together. For this I measured all the pieces that were required on the ply and used a small handsaw to cut the timber. From there the edges were sanded down to the line previously measured. For this sandpaper P80, P60 and P120 were used. After this nail glue was used to stick the front and sides together. The back was left unglued as Brass Hinges were put in so that the back of the project was accessibe for battery changes.
+
+![Image](9.jpg)
+![Image](2.jpg)
+![Image](14.jpg)
+![Image](15.jpg)
+![Image](16.jpg)
+![Image](8.jpg)
+![Image](17.jpg)
+![Image](18.jpg)
+![Image](7.jpg)
+
+Once the back was placed on with the hinges 2 holes were srewed into the front of the box this was to allow the wires from the MQ-3 Sensor and the RGB Ring light to be fed through to the back.
+
+All that remained was feeding the wires through the slots and attaching them to the micro:Bit.
+
+![Image](4.jpg)
 
 ## Final code ##
 
@@ -158,7 +182,7 @@ This prototype is built to a scale of 1:4.
 
 ## Design process discussion ##
 <!--- Discuss your process used in this project, particularly with reference to aspects of the Double Diamond design methodology or other relevant design process. --->
-When approaching a challenge in this task I refered to aspects of the double diamond method.
+
 
 #### Challenges Thus far ####
 
@@ -185,3 +209,5 @@ What techniques, approaches, skills, or information did you find useful from oth
 What parts of your project do you feel are novel. This is IMPORTANT to help justify a key component of the assessment rubric.
 
 What might be an interesting extension of this project? In what other contexts might this project be used? --->
+
+With this project i found that all the videos and tutorials i found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so i was able to create code that worked well with the product. The most successful 
