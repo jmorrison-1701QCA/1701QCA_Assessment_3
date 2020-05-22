@@ -210,4 +210,8 @@ What parts of your project do you feel are novel. This is IMPORTANT to help just
 
 What might be an interesting extension of this project? In what other contexts might this project be used? --->
 
-With this project I found that all the videos and tutorials i found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so i was able to create code that worked well with the product. The most successful 
+With this project I found that all the videos and tutorials I found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so i was able to create code that worked well with the product. The most successful component was the Ring Light and having it respond with the correct colours and and measurements that were being registered by the MQ-3 sensor. A part that couldv'e been improved was the sensitivity of the MQ-3 Sensor, this is because it was reading large numbers in regards to the concentration of alcohol, in the drink or breath. 
+
+A novel part of my project was that the sensor was connected to an LED, which in turn related to a choice in what to drink next.
+
+An extensions that would be interesting is having an electronic screen that would read out the Level of alcohol as well as the drink that is next.
