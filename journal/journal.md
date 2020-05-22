@@ -97,17 +97,16 @@ The game will be played off of a similar layout of a dartboard. This is so that 
 
 ### Final design concept ###
 <!--- This should be a description of your concept including its context, motivation, or other relevant information you used to decide on this concept. --->
+
 A drinking game where each player breathes on an alcohol sensor, the sesnor then relays the level to a ring light that lights a certain colour (determined by the B.A.C) this colour determines what the strength of the next drink is.
 
 This is a group game. At each turn the player uses the the Alcohol Sensor, once the level of B.A.C in their breath has been determined the player will drink the required drink and then complete a random activity (this can be determined by the colour or a alternative way). Once their turn is up the next player goes.
 
-The type of alchol each colour represents is determined by the players, but the game is designed that as the B.A.C increases the Alcohol Content in the drink selected will decrease. 
+The motivation behind this concept is to create a new and intersting game for adults to play of all ages, that is simple to use and understand. It also has to be a personable game that allows the players to make it there own, as this would allow them to enjoy it more rather then having a set of rules.
 
-This game will be using a MQ-3 Alcohol Sensor and 24 RGB LED Ring Module.
+The game uses an MQ-3 sensor that reads the Alcohol Content that reading is then sent to the micro:Bit that reads it and then determines what colour to send to the RGB Ring Light. The ring light will then change to the appropiate colour which will therefore tell the player what the task or drink is next.
 
-The game will be played off of a similar layout of a dartboard. This is so that the players can record what drinks each colour is for and for the activity points. This layout will also be a kind of box with a removable back, all the wires for this game will be run through the back of the board, this is due to the fact that this is a drinking game and if alcohol came in contact with the electronics the game would break. The removable back is so that the batteries are easily changed if they go flat.
-
-The motivation for this concept was the idea of creating a fun and intersting way to choose a playeers next drink it also creates a new game that can be personalised for each player.
+This game will be played off of a box with a way of recording what each colour is in determining next to the Sensor. The back will be removable or hinged so that the micro:Bit can be unplugged and plugged in to start the game and so that the batteries in the back are able to be changed when required.
 
 ![Image](Final.jpg)
 
@@ -135,9 +134,10 @@ A main component of the technical development was that rings had to be created s
 ![Image](5.jpg)
 ![Image](4.jpg)
 
+Small bolts where used to attach the the wires to the micro:Bit.
 ### Fabrication ###
 
-When starting this project I was unsure in what to contain the game in that would make it functional as well as portable. It was decided that box would be used to contain the game as it would stop liquids from getting into the circuits. A prototype was made for the project to determine whether it would be a good match to the project.
+When starting this project I was unsure in what to contain the game in that would make it functional as well as portable. It was decided that a box would be used to contain the game as it would stop liquids from getting into the circuits. A prototype was made for the project to determine whether it would be a good match to the project.
 
 ![Image](Prot_1.jpg)
 ![Image](Prot_2.jpg)
@@ -167,7 +167,7 @@ Next in the process of assembling the box was the process of measuring a gluing 
 ![Image](18.jpg)
 ![Image](7.jpg)
 
-Once the back was placed on with the hinges 2 holes were srewed into the front of the box this was to allow the wires from the MQ-3 Sensor and the RGB Ring light to be fed through to the back.
+Once the back was placed on with the hinges 2 holes were screwed into the front of the box this was to allow the wires from the MQ-3 Sensor and the RGB Ring light to be fed through to the back.
 
 All that remained was feeding the wires through the slots and attaching them to the micro:Bit.
 
@@ -180,7 +180,7 @@ All that remained was feeding the wires through the slots and attaching them to 
 ## Design process discussion ##
 <!--- Discuss your process used in this project, particularly with reference to aspects of the Double Diamond design methodology or other relevant design process. --->
 
-
+When first creating the concept for this project the doubl
 #### Challenges Thus far ####
 
 Challenges that have presented themselves thus far is having to learn how to understand the MQ-3 tables so that the breathalyser can be callibrated. This process has yet to be completed and is currently in the define phase of learning and understanding the code used to create the callibration using Raspberry Pi. 
