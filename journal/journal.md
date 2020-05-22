@@ -124,25 +124,27 @@ This game will be played off of a box with a way of recording what each colour i
 ![Image](Flowchart.jpg)
 
 ## Process documentation ##
-<!--- In this section, include text and images (and potentially links to video) that represent the development of your project including sources you've found (URLs and written references), choices you've made, sketches you've done, iterations completed, materials you've investigated, and code samples. Use the markdown reference for help in formatting the material.
 
 ### Technical Development ###
 
 The technical development for this project began with connecting the mico:Bit to the MQ-3 sensor. This was done using the analogue read pin and setting it to Pin 0. The wiring for component was straitfoward. An external battery was required to run the MQ-3 sensor due to that the Micro:Bit battery was operating the Ring Lights. 
 
-![Image]
-![Image]
-![Image]
+![Image](MQ-3_1.jpg)
+![Image](MQ-3_2.jpg)
+![Image](MQ-3_3.jpg)
 
 From there the MQ_3 Sensor was connected with the Ring Light. This was done by sending the reasing from the MQ-3 through the micro:Bit where the code would then turn the number into a colour that would then input input it to the Ring Light. These was completed using Pins 1 and 0. wiring for this process was similar to the first but instead of having an external battery the Ring was connected with the micro:Bit.
 
 A main component of the technical development was that rings had to be created so that the wiring could be attached to the micro:Bit without a breadboard. This was done through the process of soldering. A ring was created out of 1mm alloy and wrapped around a small screw that matched the diameter of the hole in the micro:Bit. This ring end was then soldered together and later attached to the appropiate wire so that it could be connected to the micro:Bit.
 
-![Image]
-![Image]
-![Image]
+![Image](Solder.jpg)
+![Image](Solder_2.jpg)
+![Image](Solder_3.jpg)
 
 Small bolts where used to attach the the wires to the micro:Bit.
+
+![Image](Wiring.jpg)
+
 ### Fabrication ###
 
 When starting this project I was unsure in what to contain the game in that would make it functional as well as portable. It was decided that a box would be used to contain the game as it would stop liquids from getting into the circuits. A prototype was made for the project to determine whether it would be a good match to the project.
@@ -153,42 +155,45 @@ When starting this project I was unsure in what to contain the game in that woul
 The prototype was made to 1:4 scale. 
 
 I took inspiration for the basic design of the box from a timber dartboard. 
-![Image](.jpg)
+![Image](Dartboard.jpg)
+![Image](Dartboard_2.jpg)
 
 7cm Plywood timber was used in the making of the box. This was chosen due to the sturdyness of the ply as well as the asthetics of the grain in the ply. 
 
-![Image](.jpg)
+![Image](Ply.jpg)
 
 The ply was then stained with a hazelnut stain, this was all for asthestic purposes.
 
-![Image](.jpg)
+![Image](Tint.jpg)
 
 Next in the process of assembling the box was the process of measuring a gluing all the pieces together. For this I measured all the pieces that were required on the ply and used a small handsaw to cut the timber. From there the edges were sanded down to the line previously measured. For this sandpaper P80, P60 and P120 were used. After this nail glue was used to stick the front and sides together. The back was left unglued as Brass Hinges were put in so that the back of the project was accessibe for battery changes.
 
-![Image]
-![Image]
-![Image]
-![Image]
-![Image]
-![Image]
-![Image]
-![Image]
-![Image]
+![Image](Position.jpg)
+![Image](Saw.jpg)
+![Image](Action_Saw.jpg)
+![Image](Sandpaper.jpg)
+![Image](Glue_1.jpg)
+![Image](Glue_2.jpg)
+![Image](Glue_3.jpg)
+![Image](Hinge.jpg)
 
 Once the back was placed on with the hinges 2 holes were screwed into the front of the box this was to allow the wires from the MQ-3 Sensor and the RGB Ring light to be fed through to the back.
 
 All that remained was feeding the wires through the slots and attaching them to the micro:Bit.
 
-![Image]
+![Image](Cover.jpg)
 
 ## Final code ##
 
-![Image]
+![Image](Final_Code.jpg)
 
 ## Design process discussion ##
 <!--- Discuss your process used in this project, particularly with reference to aspects of the Double Diamond design methodology or other relevant design process. --->
 
-When first creating the concept for this project the double 
+When first creating the concept for this project the Double Diamond Method was used to determine what resources were best to used and to problem solve any mechanical or coding errors that occured during the design process.
+
+![Image](Double_Di.png)
+
 #### Challenges Thus far ####
 
 Challenges that have presented themselves thus far is having to learn how to understand the MQ-3 tables so that the breathalyser can be callibrated. This process has yet to be completed and is currently in the define phase of learning and understanding the code used to create the callibration using Raspberry Pi. 
