@@ -82,20 +82,28 @@ To create a mature social game that allows players to interact using a sensor.
 
 ### Design ideation ###
 <!--- Document your ideation process. This will include the design concepts presented for assessment 2. You can copy and paste that information here. --->
-### Final Design Concept ###
 
-A drinking game where each player breathes on an alcohol sensor, the sesnor then relays the level to a ring light that lights a certain colour (determined by the B.A.C) this colour determines what the strength of the next drink is.
+#### Design Concept 1 ####
 
-This is a group game. At each turn the player uses the the Alcohol Sensor, once the level of B.A.C in their breath has been determined the player will drink the required drink and then complete a random activity (this can be determined by the colour or a alternative way). Once their turn is up the next player goes.
+A game that uses a sonic sesnor that is connected to a series of LED Lights.
 
-The type of alchol each colour represents is determined by the players, but the game is designed that as the B.A.C increases the Alcohol Content in the drink selected will decrease. 
+This game involves a series of players or a single player to approach the sensor and try to get the greatest amounts of points. The points are determined by what colour light is lit by the sensor. 
 
-This game will be using a MQ-3 Alcohol Sensor and 24 RGB LED Ring Module.
+The sonic sensor would be set on a timer and every 20 seconds it would read where the player is and light up the equivilant light.
 
-The game will be played off of a similar layout of a dartboard. This is so that the players can record what drinks each colour is for and for the activity points. This layout will also be a kind of box with a removable back, all the wires for this game will be run through the back of the board, this is due to the fact that this is a drinking game and if alcohol came in contact with the electronics the game would break. The removable back is so that the batteries are easily changed if they go flat.
+This would repeat with each player.
 
+![Image](Con_1.jpg)
 
-### Final design concept ###
+#### Design Concept 2 ####
+
+A game that connects a movement sensor to a motor that rotates the sensor and when movement is detected a buzzer goes off.
+
+This game can be played individually or with others.  The players are given a series of tasks (ie. twister, hopscotch, truth or dare etc.) and when the movement sensor is in their sector they all must freeze, no matter what position they are in. If the sensor detects movement the buzzer will sound and the team will either have a disadvantage next round or be out (it is ultimatley up to the players how they wish to use the equipment and what the rules are).
+
+![Image](Con_2.jpg)
+
+#### Final design concept ####
 <!--- This should be a description of your concept including its context, motivation, or other relevant information you used to decide on this concept. --->
 
 A drinking game where each player breathes on an alcohol sensor, the sesnor then relays the level to a ring light that lights a certain colour (determined by the B.A.C) this colour determines what the strength of the next drink is.
@@ -122,17 +130,17 @@ This game will be played off of a box with a way of recording what each colour i
 
 The technical development for this project began with connecting the mico:Bit to the MQ-3 sensor. This was done using the analogue read pin and setting it to Pin 0. The wiring for component was straitfoward. An external battery was required to run the MQ-3 sensor due to that the Micro:Bit battery was operating the Ring Lights. 
 
-![Image](MQ-3_1.jpg)
-![Image](MQ-3_2.jpg)
-![Image](MQ-3_3.jpg)
+![Image]
+![Image]
+![Image]
 
 From there the MQ_3 Sensor was connected with the Ring Light. This was done by sending the reasing from the MQ-3 through the micro:Bit where the code would then turn the number into a colour that would then input input it to the Ring Light. These was completed using Pins 1 and 0. wiring for this process was similar to the first but instead of having an external battery the Ring was connected with the micro:Bit.
 
 A main component of the technical development was that rings had to be created so that the wiring could be attached to the micro:Bit without a breadboard. This was done through the process of soldering. A ring was created out of 1mm alloy and wrapped around a small screw that matched the diameter of the hole in the micro:Bit. This ring end was then soldered together and later attached to the appropiate wire so that it could be connected to the micro:Bit.
 
-![Image](3.jpg)
-![Image](5.jpg)
-![Image](4.jpg)
+![Image]
+![Image]
+![Image]
 
 Small bolts where used to attach the the wires to the micro:Bit.
 ### Fabrication ###
@@ -157,30 +165,30 @@ The ply was then stained with a hazelnut stain, this was all for asthestic purpo
 
 Next in the process of assembling the box was the process of measuring a gluing all the pieces together. For this I measured all the pieces that were required on the ply and used a small handsaw to cut the timber. From there the edges were sanded down to the line previously measured. For this sandpaper P80, P60 and P120 were used. After this nail glue was used to stick the front and sides together. The back was left unglued as Brass Hinges were put in so that the back of the project was accessibe for battery changes.
 
-![Image](9.jpg)
-![Image](2.jpg)
-![Image](14.jpg)
-![Image](15.jpg)
-![Image](16.jpg)
-![Image](8.jpg)
-![Image](17.jpg)
-![Image](18.jpg)
-![Image](7.jpg)
+![Image]
+![Image]
+![Image]
+![Image]
+![Image]
+![Image]
+![Image]
+![Image]
+![Image]
 
 Once the back was placed on with the hinges 2 holes were screwed into the front of the box this was to allow the wires from the MQ-3 Sensor and the RGB Ring light to be fed through to the back.
 
 All that remained was feeding the wires through the slots and attaching them to the micro:Bit.
 
-![Image](4.jpg)
+![Image]
 
 ## Final code ##
 
-![Image](20.jpg)
+![Image]
 
 ## Design process discussion ##
 <!--- Discuss your process used in this project, particularly with reference to aspects of the Double Diamond design methodology or other relevant design process. --->
 
-When first creating the concept for this project the doubl
+When first creating the concept for this project the double 
 #### Challenges Thus far ####
 
 Challenges that have presented themselves thus far is having to learn how to understand the MQ-3 tables so that the breathalyser can be callibrated. This process has yet to be completed and is currently in the define phase of learning and understanding the code used to create the callibration using Raspberry Pi. 
