@@ -194,21 +194,27 @@ When first creating the concept for this project the Double Diamond Method was u
 
 ![Image](Double_Di.png)
 
-#### Challenges Thus far ####
+Discover: Discover the problem.
+Define: Define what the problem is what it might entail to make a solution.
+Develop: Develop a solution to the problem that was discovered ealier using the Develop and Define Steps.
+Deliver: Deliver the solution and test if it works. 
 
-Challenges that have presented themselves thus far is having to learn how to understand the MQ-3 tables so that the breathalyser can be callibrated. This process has yet to be completed and is currently in the define phase of learning and understanding the code used to create the callibration using Raspberry Pi. 
+These steps can be repeated many times till a solution was formed.
 
-Another Challenge that has been completed was the wiring required to correclty connect the Breathyliser to the micro:Bit. This process reached completion. The method used to reach the outcome was the Double Diamond method also. The Discover phase was looking online at Git Hub and Audino at projects using the MQ-3 Alcohol Sensor, and seeing how they wired their projects together. The Define phase was understanding what each output and input on the MQ-3 was, this was completed by looking at designs of the product and how each version differentiates. The development phase was connecting all the wires and testing to see if this gave the correct reading, this was done by placing a bottle of vodka over the senor and seeing of the number that was presented on the micro:Bit LED's changed. 
+### Initial Design ###
+During the first stages of the project the Double Diamond Method was used heavily to determine what resources would be best to use. 
 
-The final challenge that has been presented thus far is the connecting of the 24 x RGB Ring Light to the Breathalyser. This task is in the development phase. The Disocover phase was looking at the problem and finding ways that a code can be changed so that instead of the number increasing on the LED screen on the micro:Bit the lights on the Ring change as well. The Define phase was used to cross reference other works on connecting an LED to a micro:Bit as an output.
+### Coding ###
+A challenge that occured was developing the existing code that was created using Aurdino and Rasberry Pi and changing them into block coding. This challenge was overcome by trial and error and testing each posible code pattern to see what worked and what didn't.
 
-### Fabrication ###
+During the process of creating this project one reaccuring complication was the callibrating of the MQ-3 Alcohol Sensor. As this problem was a continous one the double diamond was used repeatedly to resolve the issue. The two steps of the process that was repeated were the defining the issue and then developing a solution. The developing step was the research undertaken trying to understand how to callibarte the sensitivity of the the sensor and the trying to deliver what was learnt during the develop stage. This process was completed numerous times. 
 
-The fabrication for this project has just entered into the development phase where materials are being bought and assembled. To get to this phase the double diamond method was also used. I had wanted to make something portable and simplistic, as this was a drinking game i hadnt wanted the design to be too complex and also wanted it to have some style features. Originally it was going to be similar to a board game. It was made apparent that this was not appropiate for a game that involved liquids, it was also suggested that the nature of the game would make certain components difficult to remember as the game progressed this changed the external design of the board so that a white board could be incuded so these components could be easily seen and . 
+Eventually it was decided that callibrating the senor was too difficult, instead another solution was offered that the alchol content of each drink be recorded and the list the levels on the basis of those recordings.
 
-#### Challenges Thus Far ####
+### Mechanical ###
+During the building of the box it was found that the initial idea of carving a small box shape out of the back was improbable as it was too difficcult with the limited surply of tools. With the problem identified the next step was developing a solution. The solution for this problem was that instead of having a section of back be removeable that the entire back piece be hinged on so that the back lifted to reveal the wiring and the battery packs. The hinges that were used  were small brass hinges sourced from Bunnings.
 
-A challenge that presented itself was due to the nature of the game involving liquid it was likly that the electronics on the project would get wet and as such the game would be destroyed this was corrected when I went to find ways to keep the electronics out oif the way of the alcohol. I looked at alternative materials and containers that would protect the electronics. In the end inspiraction was taken from a Dart board and the idea of having a woodern box, with all the wiring inside and a detachable back for access to the batteries.
+An unexpected development was that initially there was meant to be a white piece of lamenated paper to record results and drinks on. But due to unexpected technical difficulties this was not viable. To resolve this issue a note pad with removable pages was created using regular paper cut into rectanges and hot glue joing them together. This also created new functions wthin the game, It allowed the players to plan ahead of each round and could also be used as an interactive piece for the players.
 
 ## Reflection ##
 
@@ -220,8 +226,16 @@ What parts of your project do you feel are novel. This is IMPORTANT to help just
 
 What might be an interesting extension of this project? In what other contexts might this project be used? --->
 
-With this project I found that all the videos and tutorials I found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so i was able to create code that worked well with the product. The most successful component was the Ring Light and having it respond with the correct colours and and measurements that were being registered by the MQ-3 sensor. A part that couldv'e been improved was the sensitivity of the MQ-3 Sensor, this is because it was reading large numbers in regards to the concentration of alcohol, in the drink or breath. 
+The successful components of this project was the fabrication of the container that stored the game and the communication between the MQ-3 Alcohol Sensor and the 24 RGB Ring Light. These components were considered successful because the understanding that I gained during the process of creating the code that allowed them to communicate.
 
-A novel part of my project was that the sensor was connected to an LED, which in turn related to a choice in what to drink next.
+The fabrication of the container that stored the game was considered successful because it was a process that I had never undertaken before and as such was new territory. This development of the container allowed me develop new skills. 
 
-An extensions that would be interesting is having an electronic screen that would read out the Level of alcohol as well as the drink that is next.
+Components that could be improved in the design process were the were the sensitivity of the MQ-3 Sensor and the connections between the wiring. The reasoning that the sensitivity of the sensor was in need of improvemnt because it was reading high numbers in regards to the alcohol in the air. The wiring connection is in need of improvemnet because the wires were originally meant to be soldered together, this task was undertaken with difficulty and as such the connections between the wires are not completely accurate.
+
+With this project I found that all the videos and tutorials I found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so I was able to create code that worked well with the product.
+
+This project is novel as it creates a connection bewteen the MQ-3 Sensor and an RGB Ring Light. The connection between these two components had not been used in a way where a game had been created before. It also is novel as it allows the the players to interact with the devices and make the game their own, allowing changes to be made easily without alterating the basis of the game.
+
+An extensions that would be interesting is having an electronic screen that would read out the Level of alcohol as well as the drink that is next. Another extension that would be interesting is if the micro:Bit was changed out with an Arduino platform. 
+
+This game can be used in a context of not being a game, instead it could be used simply as a device to choose the persons next drink. Though this project is adaptable to each player in can only be used in the context of a group environment.
