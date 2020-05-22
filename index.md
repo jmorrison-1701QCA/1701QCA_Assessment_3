@@ -26,7 +26,6 @@ The Breathalyser game is an social interactive game for adults where the Alcohol
 
 [![Image](6.jpg)](https://vimeo.com/421324229)
 
-Password: 1701QCA
 
 ### Journal ###
 
