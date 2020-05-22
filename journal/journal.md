@@ -149,11 +149,11 @@ I took inspiration for the basic design of the box from a timber dartboard.
 
 7cm Plywood timber was used in the making of the box. This was chosen due to the sturdyness of the ply as well as the asthetics of the grain in the ply. 
 
-![Image](1.jpg)
+![Image](.jpg)
 
 The ply was then stained with a hazelnut stain, this was all for asthestic purposes.
 
-![Image](2.jpg)
+![Image](.jpg)
 
 Next in the process of assembling the box was the process of measuring a gluing all the pieces together. For this I measured all the pieces that were required on the ply and used a small handsaw to cut the timber. From there the edges were sanded down to the line previously measured. For this sandpaper P80, P60 and P120 were used. After this nail glue was used to stick the front and sides together. The back was left unglued as Brass Hinges were put in so that the back of the project was accessibe for battery changes.
 
