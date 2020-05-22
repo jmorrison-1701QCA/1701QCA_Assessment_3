@@ -178,7 +178,7 @@ All that remained was feeding the wires through the slots and attaching them to 
 ## Final code ##
 
 <!--- Include here screenshots of the final code you used in the project if it is done with block coding. If you have used javascript, micropython, C, or other code, include it as text formatted as code using a series of three backticks ` before and after the code block. See https://guides.github.com/features/mastering-markdown/ for more information about that formatting. --->
-
+![Image](20.png)
 
 ## Design process discussion ##
 <!--- Discuss your process used in this project, particularly with reference to aspects of the Double Diamond design methodology or other relevant design process. --->
@@ -210,4 +210,4 @@ What parts of your project do you feel are novel. This is IMPORTANT to help just
 
 What might be an interesting extension of this project? In what other contexts might this project be used? --->
 
-With this project i found that all the videos and tutorials i found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so i was able to create code that worked well with the product. The most successful 
+With this project I found that all the videos and tutorials i found about operating and coding with the MQ-3 sensor highly usefull this was due to that I had never worked with this component before and allowed me to understand how it worked so i was able to create code that worked well with the product. The most successful 
